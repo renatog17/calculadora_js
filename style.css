@@ -1,0 +1,44 @@
+body {
+    justify-content: center;
+    align-items: center;
+    background-color: #a7a7a7;
+    height: 100vh;
+    display: flex;
+}
+
+.key{
+    height: 50px;
+    width: 40px;
+    margin: 2px;
+    padding: auto;
+    background-color: #00d5ff;
+    border: none;
+    border-radius: 15px;
+}
+
+.key:hover{
+    background-color:#28c5c5;
+}
+
+#painel{
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 30px;
+    width: 200px;
+    border-radius: 2px;
+    background-color: aliceblue;
+
+}
+
+
+#calculadora{
+    border-radius: 2px;
+    height: 300px;
+    width: 220px;
+    background-color: rgba(253, 247, 247, 0.552);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+#keys{
+    padding: 15px;
+}
